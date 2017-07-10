@@ -1,0 +1,1064 @@
+/* Custom CSS */
+
+
+/* Lightbox "Popup" */
+
+.popup_lightbox, .ui-dialog {
+  z-index: 501;
+}
+
+.ui-widget-overlay {
+  z-index: 500;
+}
+
+.ui-widget-header {
+  background: #f4f4f4;
+}
+
+.ui-dialog {
+  width: 500px !important;
+}
+
+.ui-widget {
+  font-family: Titillium Web,sans-serif;
+}
+
+.ui-widget input {
+  font-size: 1rem;
+}
+
+.ui-dialog, .ui-dialog-title,  {
+  color: #323c3c;
+}
+
+.ajax-progress-throbber {
+  display: none;
+}
+
+.tips li, .path-search-node-help #main-content ul li {
+  display: list-item;
+  white-space: normal;
+}
+
+#block-views-block-nyheder-sidebar-block-1-2 {
+  border-bottom: 1px solid #323c3c;
+}
+
+/* Jura Edits */
+
+.user-logged-out .node--type-jura {
+  max-height: 691px;
+  margin: 0px;
+  opacity: 1;
+}
+
+
+.user-logged-out #block-lockedpagelogin {
+  height: 691px;
+  margin-top: 0px;
+  overflow: hidden;
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("http://pro-f.mathias.dk/sites/pro-f.cpz.dk/files/bg_gradient_locked.png");
+  background-size: 100% 100%;
+}
+
+.user-logged-out #block-lockedpagelogin .block__inner {
+  width: 50%;
+  max-width: 600px;
+  padding-top: 20px;
+  background-color: #ffffff;
+  color: #323c3c;
+  margin: auto;
+}
+
+.user-logged-out #block-lockedpagelogin .block__content {
+  margin: auto;
+  width: 80%;
+}
+
+.user-logged-out #block-lockedpagelogin h3 {
+  text-align: center !important;
+}
+
+.user-logged-out #block-lockedpagelogin .field__item p:nth-child(3) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+  background-color: red;
+}
+
+.user-logged-out #block-lockedpagelogin .field__item p:nth-child(3) a {
+  color: #ffffff;
+}
+
+.user-logged-out .node--type-jura {
+  position: absolute;
+  max-width: 960px;
+  width: 100%;
+}
+
+.page-node-type--jura #main-content .block {
+margin: 0px;
+}
+
+.page-node-type--jura .pr-main__content .node--view-mode-full {
+ display: none;
+}
+
+
+/* General */
+
+.view-forside nav {
+  display: none;
+}
+
+#mlid-search {
+  display: none !important;
+}
+
+#sub-features { /* used for modals */
+  display: none;
+}
+
+#block-navigationmenugradient {
+  display: none;
+}
+
+#masthead ul li, #navbar ul li {
+display: inline;
+white-space: nowrap;
+}
+
+body {
+height: auto;
+}
+
+.view-forside {
+  width: 70%;
+}
+
+.views_slideshow_main a, #block-prof-footer a, #popup-buttons button, .view-nyheder .pager__items a, .ui-dialog-buttonpane .button, .path-search #main-content form .form-submit, .user-register-form .form-submit {
+  padding: 0.1em 0.5em !important;
+  background: none !important;
+  background-color: red !important;
+  color: #ffffff !important;
+  font-style: italic;
+  border: 0px !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+   border-radius: 0px !important;
+  text-shadow: none !important;
+  font-family: Titillium Web, sans-serif !important;
+}
+
+.view-nyheder .node--view-mode-oversigt-kalender-og-nyheder- a, .view-nyheder .node--view-mode-oversigt-kalender-og-nyheder- a:visited {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #323c3c;
+}
+
+.view-nyheder .more-link, .view-kalender .more-link {
+ display: block;
+}
+
+.view-nyheder .field {
+  margin-bottom: 0px !important;
+}
+
+.view-nyheder .more-link a, .view-nyheder .more-link a:visited, .view-kalender .more-link a, .view-kalender .more-link a:visited {
+  color: #323c3c !important;
+  font-style: italic;
+}
+
+.pager__items .is-active {
+  display: none;
+}
+
+/* Header */
+
+  /* Site Logo */
+
+.site-branding__logo-img {
+  width:269px;
+  height: auto;
+}
+
+#block-prof-branding {
+  margin: 1.25em 0em;
+}
+
+  /* Social Links/Header Menu */
+
+#block-headermenu, header #block-sogsearchbar {
+  margin-top: 70px;
+  font-size: 0px;
+}
+
+#block-sogsearchbar {
+  float: right;
+  margin-bottom: 0px;
+}
+
+header #block-prof-search form input:hover {
+  width: 200px;
+  font-size: 16px;
+  background-color: #ffffff;
+  background-image: none;
+  padding-left: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+header #block-prof-search form:hover, header #block-prof-search form input:hover {
+    width: 200px;
+}
+
+#block-prof-search .icon {
+  display: none;
+}
+
+#block-headermenu li, header #block-prof-search form {
+  float: right;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+#block-headermenu .menu__link--wrapper {
+  margin: 0px;
+}
+
+header #block-prof-search form,  header #block-prof-search form input {
+  width: 40px;
+  height: 40px;
+  display: inline-block !important;
+  float: right;
+  margin-bottom: 0px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  color: #323c3c;
+  font-family: Titillium Web, sans-serif !important;
+}
+
+header #block-prof-search form input {
+  padding-right: 0px;
+  background: url("/files/images/icons/button_top_search_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+  border: none;
+  font-size: 0px;
+}
+
+.path-search #main-content form #edit-keys {
+  width: 100% !important;
+  background-color: #ffffff !important;
+  color: #323c3c !important;
+  font-family: Titillium Web, sans-serif !important;
+  margin-top: 0px !important;
+}
+
+.path-search form .icon {
+  top: 30px !important;
+}
+
+#block-headermenu a  {
+  display: inline-block !important;
+  width: 40px;
+  height: 40px;
+}
+
+#block-headermenu #mlid-e-mail a {
+  background: url("/files/images/icons/button_top_mailto_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+}
+
+#block-headermenu #mlid-faq a {
+  background: url("/files/images/icons/button_top_help_2x.png") no-repeat scroll center center transparent;  
+  background-size: contain;
+}
+
+#block-headermenu #mlid-facebook a {
+  background: url("/files/images/icons/button_top_facebook_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+}
+
+#block-headermenu #mlid-login a {
+  background: url("/files/images/icons/button_top_login_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+}
+
+#block-headermenu #mlid-search a {
+  background: url("/files/images/icons/button_top_search_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+}
+
+#block-headermenu #mlid-translate a {
+  background: url("/files/images/icons/button_top_english_2x.png") no-repeat scroll center center transparent;
+  background-size: contain;
+}
+
+  /* Header- and Navigation menu */
+
+.menu__item, .menu a {
+  display: inline;
+}
+
+.menu__link--wrapper {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.pr-header {
+background-color: rgba(0,0,0,0);
+box-shadow: none;
+}
+
+.block-menu__content {
+  display: inline;
+  white-space:nowrap;
+}
+
+.menu-name--main {
+  overflow: auto;
+}
+
+#navbar, .pr-header__rw {
+max-width: 1000px;
+margin: auto;
+}
+
+.pr-navbar__navbar, .pr-header__header-first, .pr-header__header-second, .pr-header__rw {
+  padding: 0 0;
+}
+
+#block-prof-main-menu {
+line-height: 3.5em;
+background-color: #323c3c;
+}
+
+#block-prof-main-menu ul, #block-secondary-menu ul, #block-tertiary-menu ul {
+  overflow-x: scroll;
+}
+
+#block-prof-main-menu ul::-webkit-scrollbar, #block-secondary-menu ul::-webkit-scrollbar, #block-tertiary-menu ul::-webkit-scrollbar {
+  display: none;
+}
+
+
+#superfish-main, #block-secondary-menu {
+background-color: #f4f4f4;
+color: #323c3c;
+line-height: 3em;
+}
+
+.sf-depth-3, #block-tertiary-menu {
+background-color: #ffffff;
+color: #323c3c;
+line-height: 3em;
+}
+
+#block-prof-main-menu .menu__item--active-trail,  {
+font-weight: bold;
+color: #ffffff;
+}
+
+#block-seconday-menu .menu__item--active-trail, #block-tertiary-menu .menu__item--active-trail, #superfish-main .active-trail {
+  color: #ffffff;
+}
+
+#superfish-main {
+width: 100%;
+}
+
+#superfish-main .sf-depth-2 a {
+padding-left: 0.8rem;
+padding-top: 0;
+padding-bottom: 0;
+}
+
+#superfish-main .sf-depth-2 a {
+padding-top: 0;
+padding-bottom: 0;
+}
+
+#block-prof-main-menu .menu__item--active-trail {
+padding-top: 1em;
+padding-bottom: 0.5em;
+}
+
+#block-prof-main-menu .menu__item--active-trail {
+border-bottom: red solid 0.5em;
+}
+
+#superfish-main .active-trail, #block-prof-menu .menu__item--active-trail {
+  background-color: #747b7b;
+}
+
+#superfish-main .sf-depth-2 .active-trail a {
+  background-color: #adb1b1;
+}
+
+/* Body */
+/* Main/primary content */
+
+#main-content {
+  min-height:70vh;
+  margin-bottom:10px !important;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.path-frontpage #main-content {
+  background-color: rgba(0,0,0,0);
+}
+
+#main-content, #content-prefix, #highlighted {
+max-width: 1000px;
+margin: auto;
+}
+
+#main-content .regions, .node {
+background-color: rgba(0,0,0,0);
+box-shadow: none;
+}
+
+/* Slideshow */
+
+.views-field-counter {
+    float: left;
+    margin-left: 5px;
+}
+
+.views-content-counter {
+  text-align: center;
+  font-size: 0;
+  width: 29px;
+  background: url("/files/images/icons/bullet_white_2x.png") no-repeat scroll center center transparent;
+  cursor: pointer;
+  transition: background-image 1s ease-in-out;
+}
+
+.active .views-content-counter {
+  background: url("/files/images/icons/bullet_red_2x.png") no-repeat scroll center center transparent;
+}
+
+/* Page content/article */
+
+.field-name-field-slider-tekst {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  font-style: italic;
+}
+
+.view-forside .node__title {
+  display: none;
+}
+
+#main-content, .tips {
+  color: #323c3c;
+}
+
+.field-node--field-manchet {
+  font-weight: 600;
+  font-size: 100%;
+  line-height:1.5em;
+}
+
+.lc-1 {
+  width: 33%;
+}
+
+.lc-2 {
+  width: 66%;
+}
+
+.view-nyheder .views-row:first-child .lc-1, .view-nyheder .views-row:first-child .lc-2, .view-kalender .views-row:first-child .lc-1, .view-kalender .views-row:first-child .lc-2, .view-jura-offentligt-indhold .lc-1, .page-node-type--kalender #block-prof-content .lc-1 {
+  width: 100%;
+}
+
+.view-nyheder .views-row:first-child img, .view-kalender .views-row:first-child img {
+  display: block;
+  margin: auto;
+} 
+
+.view-id-kalender .datetime {
+  font-size: 1.5rem;
+  color: red;
+} 
+
+.view-id-kalender .view-content .field {
+  margin-bottom: 0px;
+}
+
+.view-id-kalender .view-content h2 {
+  margin-bottom: 0.5rem;
+}
+
+.view-id-kalender .view-content h2 a {
+  color: #323c3c;
+}
+
+/* Sidebar nyheder/kalender */
+
+.view-nyheder-sidebar .lc-1, .view-kalender-sidebar .lc-1, .view-id-kalender {
+  width: 100%;
+}
+
+.view-kalender-sidebar time {
+  color: #ff0000;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+.view-nyheder-sidebar .views-field-title a, .view-nyheder-sidebar .views-field-title a:visited, .view-kalender-sidebar .views-field-title a, .view-kalender-sidebar .views-field-title a:visited  {
+  font-weight: bold;
+  color: #323c3c;
+}
+
+.view-nyheder-sidebar .lc-1 .field {
+  margin-bottom: initial;
+}
+
+.view-nyheder-sidebar .views-row, .view-kalender-sidebar .views-row {
+  margin-top: 1rem;
+}
+
+.view-nyheder-sidebar .field-node--node-title {
+  margin-bottom: 0.5rem !important;
+}
+
+.view-nyheder-sidebar .more-link a, .view-nyheder-sidebar .more-link a:visited, .view-kalender-sidebar .more-link a, .view-kalender-sidebar .more-link a:visited {
+  margin: 2rem 0rem;
+  font-style: italic;
+  color: #323c3c;
+  display: block;
+}
+
+.pr-main__sidebar-second h2, .pr-main__sidebar-second article {
+  margin-bottom: 0px;
+}
+
+.pr-main__sidebar-second .block__title {
+  color: #ff0000;
+  font-size: 1.25rem;
+}
+
+.pr-main__sidebar-second .node__title a {
+  color: #323c3c;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.node--view-mode-teaser {
+  padding: 0px;
+}
+
+.block-plugin-id--views-blocknyheder-block-1 {
+  margin-bottom: 0em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid black;
+}
+
+/* Person - view bestyrelse + sekretariat */
+
+.view-bestyrelse .node, .view-sekretariat .node {
+  padding: 0.5em !important;
+}
+
+.view-bestyrelse .views-row, .view-sekretariat .views-row {
+  width: 48%;
+  word-wrap: break-word;
+  color: #323c3c;
+  display: inline-block;
+}
+
+.view-bestyrelse .views-row .node__content .field, .view-sekretariat .views-row .node__content .field {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+.view-bestyrelse .views-row .node__content a, .view-sekretariat .views-row .node__content a {
+  color: #323c3c
+}
+
+.view-bestyrelse .views-row .node__container img, .view-sekretariat .views-row .node__container img {
+  min-width: 100%;
+}
+
+.view-bestyrelse .views-row:nth-child(odd), .views-sekretariat .view-row:nth-child(odd){
+  margin-right: 3%;
+}
+
+.node--view-mode-medlemmer .field__item a {
+  color: #323c3c;
+}
+
+.node--view-mode-medlemmer .lc-1, .node--view-mode-medlemmer .lc-2 {
+  width: 50%;
+}
+
+.node--view-mode-medlemmer .lc-1 {
+  padding: 0px;
+}
+
+.node--view-mode-medlemmer .field-node--field-titel-stilling, .node--view-mode-medlemmer .field-node--field-afd, .node--view-mode-medlemmer .field-node--field-tlf, .node--view-mode-medlemmer .field-node--field-e-mail, .node--view-mode-medlemmer .field-node--field-hjemmeside {
+  font-size: 0.9rem;
+  line-height: normal;
+}
+
+.node--view-mode-medlemmer .field-node--field-titel-stilling .field__item, .node--view-mode-medlemmer .field-node--field-afd .field__item {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.view-medlemsliste {
+word-wrap: break-word;
+word-break: break-all;
+}
+
+.view-medlemsliste table, .view-medlemsliste tr, .view-medlemsliste thead, .view-medlemsliste tbody {
+width:100%;
+}
+
+.view-medlemsliste td, .view-medlemsliste th {
+width: 20%;
+}
+
+/* Footer */
+
+#footer {
+min-height: 30vh;
+background-color: #323c3c;
+}
+
+.pr-footer__footer {
+max-width: 1000px;
+margin: auto;
+}
+
+/* Footer Logo list Producentforeningen står... */
+
+.footer-logo .node__header {
+  display: none;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.footer-logo article, .footer-logo figure {
+  padding: 0px 0px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.view-footer-logoer .view-content {
+  font-size: 0;
+}
+
+#block-views-block-footer-logoer-block-1 h2 {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+#block-views-block-footer-logoer-block-1 {
+  margin-bottom: 0px;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid white;
+}
+
+/* Footer Adresse + links */
+
+#block-adresseblockfooter, #block-prof-footer {
+width: 50%;
+display: inline;
+}
+
+#block-adresseblockfooter {
+float: left;
+}
+
+#block-prof-footer {
+float: right;
+}
+
+#block-adresseblockfooter p, #block-prof-footer li {
+}
+
+/* Person bestyrelse sekretariat views */
+
+.view-sekretariat .field, .view-bestyrelse .field {
+  margin-bottom: 0em;
+}
+
+.view-sekretariat h2, .view-bestyrelse h2 {
+  margin: 0.25em 0 0 0;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.view-sekretariat .field-type-image__figure, .view-bestyrelse .field-type-image__figure {
+  margin-bottom: 0em;
+}
+
+.view-sekretariat h3, .view-bestyrelse h3 {
+  font-weight: 400;
+}
+
+.view-sekretariat .field-name-field-afdeling, .view-bestyrelse .field-name-field-afdeling {
+  margin-bottom: 0.25em;
+}
+
+.path-user .pr-main__content thead tr {
+  color: #323c3c;
+  background-color: #ffffff;
+}
+
+  .page-gradient {
+    position: absolute;
+    height: 70vh;
+    left: -20px;
+    width: -moz-calc(100% + 40px);
+    width: -webkit-calc(100% + 40px);
+    width: -o-calc(100%  + 40px);
+    width: calc(100% + 40px);
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+  }
+
+/* Bigger screen */
+
+@media (min-width: 60.01em) {
+  #block-secondary-menu, #block-tertiary-menu {
+    visibility:hidden;
+    height: 0px;
+  }
+
+  .footer-logo {
+    width: 20%;
+    display: inline-block;
+  }
+
+  .footer-logo:first-child {
+    border-right: 2px solid red;
+  }
+
+}
+
+/* Tablet View */
+
+@media (max-width: 60em) {
+
+  .page {
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+  }
+
+  .path-frontpage #main-content {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .path-frontpage .pr-main__sidebar-second {
+    display: none;
+  }
+
+  .view-bestyrelse .views-row:nth-child(odd), .views-sekretariat .view-row:nth-child(odd){
+  margin-right: initial;
+  }
+
+  .user-logged-out .node--type-jura, .user-logged-out #block-lockedpagelogin {
+  left: 0;
+  }
+
+  .views_slideshow_slide {
+    max-width: 90vw;
+  }
+
+  #block-navigationmenu-3, #superfish-main {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  #masthead {
+    background-color: #ffffff;
+  }
+
+  .pr-header__header-first {
+    position: relative;
+  }
+
+  .pr-header__header-first, .pr-header__header-second {
+    width: 50%;
+  }
+
+  #block-headermenu li:first-child {
+    margin-right: 60px;
+  }
+
+  #block-prof-branding {
+    margin-left: 60px !important;
+  }
+
+  #mlid-search {
+    display: inline-block;
+  }
+
+  header .search-block-form {
+    display: none;
+  }
+
+  #block-prof-branding {
+    margin: 1.25em 0em 0em 0em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #navbar, .menu-level-1 .menu__item--active-trail {
+    color: #323c3c !important;
+  }
+
+   #navbar #block-secondary-menu .menu__item a, #navbar #block-tertiary-menu .menu__item a {
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 0.50em;
+    padding-right: 0.50em;
+  }
+
+  #block-secondary-menu .menu__item--active-trail a {
+    background-color: #323c3c;
+    color: #ffffff;
+  }
+
+  #block-tertiary-menu .menu__item--active-trail a {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .pr-navbar__rw {
+    padding: 0em;
+  }
+
+  #block-prof-main-menu {
+    background-color: #ffffff;
+  }
+
+  .view-bestyrelse .views-row, .view-sekretariat .views-row {
+    width: 100%;
+    margin-right: 0px;
+    border-bottom: 2px solid #323c3c;
+  }
+
+  #block-navigationmenugradient {
+    display: initial;
+  }
+
+    #block-navigationmenugradient .field {
+    margin-bottom: 0px;
+  }
+
+  .nav-gradient-container, .page-gradient-container {
+    position: relative;
+  }
+
+  .nav-gradient-left, .nav-gradient-right {
+    position: absolute;
+    top: -9em;
+    height: 9em;
+    width: 10vw;
+  }
+
+  .nav-gradient-left {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+  }
+
+  .nav-gradient-right {
+    right: 0;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,255,255,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+  }
+
+
+
+  .lc-1, lc-2 {
+    width: 100%;
+  }
+
+  .view-kalender img, .view-nyheder img {
+    display: block;
+    margin: auto;
+  }
+
+  .footer-logo {
+    width: 20%;
+    display: inline-block;
+  }
+
+  .footer-logo:first-child {
+    border-right: 2px solid red;
+  }
+
+  .footer-logo img {
+  height: 30px;
+  }
+  
+  #block-prof-footer li {
+    float: left;
+    clear: left;
+    max-width: 100%;
+  }
+
+  #block-prof-footer .menu-name--footer {
+    display: block !important;
+  }
+}
+
+/* Mobile View */
+
+@media (max-width: 45em) {
+
+
+  .pr-header__header-first, .pr-header__header-second {
+    display: block;
+    width: 100%;
+  }
+
+  #block-headermenu li:first-child {
+    margin-right: 5px;
+  }
+
+  #block-prof-branding {
+    margin-left: 0px !important;
+  }
+
+  #block-headermenu {
+    margin-top: 0em;
+  }
+
+  #block-headermenu li {
+    float: none;
+  }
+
+  #block-prof-branding {
+    display: block;
+    position: initial;
+  }
+  
+  #block-prof-branding a {
+    margin: auto;
+  }
+
+  .menu-name--header-menu {
+    text-align: center;
+  }    
+
+  .menu-name--header-menu li {
+    float: initial;
+    display: inline-block;
+  }
+
+  .view-bestyrelse .group-left, .view-bestyrelse .group-right, .view-sekretariat .group-left, .view-sekretariat .group-right {
+    float: none;
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+
+  .footer-logo {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .footer-logo:first-child img {
+    border-bottom: 2px solid red;
+  }
+
+  .footer-logo:first-child {
+    border-right: none;
+  }
+
+  .footer-logo img {
+    height: 70px;
+  }
+}
+
+/* Smaller Mobile View */
+
+@media (max-width: 30em) {
+  #block-adresseblockfooter, #block-prof-footer {
+    width: 100%;
+    float: none;
+  }
+
+  .ui-dialog {
+    width: 60vw;
+  }
+
+ #popup-text h2 {
+    font-size: 8px !important;
+  }
+
+  #popup-text p {
+    font-size: 6px !important;
+  }
+
+  #popup-buttons button {
+    margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
+  }
+
+  .field-name-field-slider-tekst {
+    font-size: 1.5rem;
+    word-wrap: break-word;
+  }
+
+  #main-content { 
+    min-height: 700px;
+  }
+
+  .page-node-type--jura #main-content {
+    min-height: 70vh;
+  }
+
+  .view-bestyrelse .group-left, .view-bestyrelse .group-right, .view-sekretariat .group-left, .view-sekretariat .group-right {
+    width: 90%;
+  }
+
+  body {
+    background-position: 50% 230px;
+    background-size: auto 40%;
+    background-attachment: scroll;
+  }
+
+  .node--view-mode-medlemmer .lc-1, .node--view-mode-medlemmer .lc-2 {
+  width: 100%;
+  }
+  
+}
